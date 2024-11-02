@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'agent/home'
   get 'agent/signup'
   get 'agent/about'
